@@ -1,0 +1,45 @@
+
+
+.box1 {
+    width: 100%;
+    height: 160px;
+    background-color: blue;
+}
+
+.box2 {
+    width: 100%;
+    height: 160px;
+    background-color: purple;
+}
+
+.box3 {
+    width: 100%;
+    height: 160px;
+    background-color: grey;
+}
+
+.box4 {
+    width: 100%;
+    height: 160px;
+    background-color: brown;
+}
+
+
+
+@media only screen and (min-width: 641px) and (max-width: 1140px){
+    .box1 {
+        background-color: pink;
+    }
+
+    .box2 {
+        background-color:red;
+    }
+
+    .box3 {
+        display: none;
+    }
+
+    .box4 {
+        display: none;
+    }
+}
